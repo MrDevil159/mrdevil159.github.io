@@ -195,159 +195,16 @@ main {
     .rex-ray-image {
       background-image: url(../img/grid1.png);
     }
-
-    .grid-image-top.sputnik {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#1aa9fb),
-        to(#1785c4)
-      );
-      background: -webkit-linear-gradient(#1aa9fb, #1785c4);
-      background: -o-linear-gradient(#1aa9fb, #1785c4);
-      background: linear-gradient(#1aa9fb, #1785c4);
+    .porto-image {
+      background-image: url(../img/grid3.png);
+    }
+    .recipe-image {
+      background-image: url(../img/grid4.png);
+    }
+    .scss-image {
+      background-image: url(../img/grid2.png);
     }
 
-    .sputnik-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/sputnik-1-300x257.png);
-    }
-
-    .grid-image-top.edgex {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#952f4c),
-        to(#3e1a51)
-      );
-      background: -webkit-linear-gradient(#952f4c, #3e1a51);
-      background: -o-linear-gradient(#952f4c, #3e1a51);
-      background: linear-gradient(#952f4c, #3e1a51);
-    }
-
-    .edgex-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/edge-x-300x287.png);
-    }
-
-    .grid-image-top.openswitch {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#2db89a),
-        to(#00793d)
-      );
-      background: -webkit-linear-gradient(#2db89a, #00793d);
-      background: -o-linear-gradient(#2db89a, #00793d);
-      background: linear-gradient(#2db89a, #00793d);
-    }
-
-    .openswitch-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/open-switch-300x207.png);
-    }
-
-    .grid-image-top.scaleio {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#2e96dd),
-        to(#326de6)
-      );
-      background: -webkit-linear-gradient(#2e96dd, #326de6);
-      background: -o-linear-gradient(#2e96dd, #326de6);
-      background: linear-gradient(#2e96dd, #326de6);
-    }
-
-    .scaleio-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/K8s_ScaleIO_Color-white-thumb-221x300.png);
-    }
-
-    .grid-image-top.csi {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#464646),
-        to(#000000)
-      );
-      background: -webkit-linear-gradient(#464646, #000000);
-      background: -o-linear-gradient(#464646, #000000);
-      background: linear-gradient(#464646, #000000);
-    }
-
-    .csi-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/csi-1-300x99.png);
-    }
-
-    .grid-image-top.kubernetes {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#09c1d1),
-        to(#326de6)
-      );
-      background: -webkit-linear-gradient(#09c1d1, #326de6);
-      background: -o-linear-gradient(#09c1d1, #326de6);
-      background: linear-gradient(#09c1d1, #326de6);
-    }
-
-    .kubernetes-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/kubernetes-300x293.png);
-    }
-
-    .grid-image-top.grpc {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#0cc1c8),
-        to(#2e838c)
-      );
-      background: -webkit-linear-gradient(#0cc1c8, #2e838c);
-      background: -o-linear-gradient(#0cc1c8, #2e838c);
-      background: linear-gradient(#0cc1c8, #2e838c);
-    }
-
-    .grpc-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/grpc-300x105.png);
-    }
-
-    .grid-image-top.envoy {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#290b54),
-        to(#130229)
-      );
-      background: -webkit-linear-gradient(#290b54, #130229);
-      background: -o-linear-gradient(#290b54, #130229);
-      background: linear-gradient(#290b54, #130229);
-    }
-
-    .envoy-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/envoy_logo-5028052-300x91.png);
-    }
-
-    .grid-image-top.istio {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(#4a73c0),
-        to(#466bb0)
-      );
-      background: -webkit-linear-gradient(#4a73c0, #466bb0);
-      background: -o-linear-gradient(#4a73c0, #466bb0);
-      background: linear-gradient(#4a73c0, #466bb0);
-    }
-
-    .istio-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/istio-203x300.png);
-    }
 
     .grid-item-content {
       padding: 0 20px 20px 20px;

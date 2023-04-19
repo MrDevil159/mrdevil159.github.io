@@ -160,59 +160,14 @@ main .boxes .grid-image-top.rex-ray {
 main .boxes .rex-ray-image {
   background-image: url(../img/grid1.png);
 }
-main .boxes .grid-image-top.sputnik {
-  background: linear-gradient(#1aa9fb, #1785c4);
+main .boxes .porto-image {
+  background-image: url(../img/grid3.png);
 }
-main .boxes .sputnik-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/sputnik-1-300x257.png);
+main .boxes .recipe-image {
+  background-image: url(../img/grid4.png);
 }
-main .boxes .grid-image-top.edgex {
-  background: linear-gradient(#952f4c, #3e1a51);
-}
-main .boxes .edgex-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/edge-x-300x287.png);
-}
-main .boxes .grid-image-top.openswitch {
-  background: linear-gradient(#2db89a, #00793d);
-}
-main .boxes .openswitch-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/open-switch-300x207.png);
-}
-main .boxes .grid-image-top.scaleio {
-  background: linear-gradient(#2e96dd, #326de6);
-}
-main .boxes .scaleio-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/K8s_ScaleIO_Color-white-thumb-221x300.png);
-}
-main .boxes .grid-image-top.csi {
-  background: linear-gradient(#464646, #000000);
-}
-main .boxes .csi-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/csi-1-300x99.png);
-}
-main .boxes .grid-image-top.kubernetes {
-  background: linear-gradient(#09c1d1, #326de6);
-}
-main .boxes .kubernetes-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/kubernetes-300x293.png);
-}
-main .boxes .grid-image-top.grpc {
-  background: linear-gradient(#0cc1c8, #2e838c);
-}
-main .boxes .grpc-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/grpc-300x105.png);
-}
-main .boxes .grid-image-top.envoy {
-  background: linear-gradient(#290b54, #130229);
-}
-main .boxes .envoy-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/envoy_logo-5028052-300x91.png);
-}
-main .boxes .grid-image-top.istio {
-  background: linear-gradient(#4a73c0, #466bb0);
-}
-main .boxes .istio-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/istio-203x300.png);
+main .boxes .scss-image {
+  background-image: url(../img/grid2.png);
 }
 main .boxes .grid-item-content {
   padding: 0 20px 20px 20px;
