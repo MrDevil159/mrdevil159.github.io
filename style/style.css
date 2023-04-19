@@ -49,4 +49,191 @@ main {
 main h1 {
   color: rgb(229, 79, 109);
   text-align: center;
+}
+main .boxes .grid-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+main .boxes .grid-item {
+  height: 550px;
+  flex-basis: 20%;
+  -ms-flex: auto;
+  width: 259px;
+  position: relative;
+  padding: 10px;
+  box-sizing: border-box;
+}
+main .boxes .grid-row a {
+  text-decoration: none;
+}
+main .boxes .wrapping-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  color: currentColor;
+}
+main .boxes .grid-item-wrapper {
+  box-sizing: initial;
+  background: #ececec;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  transition: padding 0.15s cubic-bezier(0.4, 0, 0.2, 1), margin 0.15s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+main .boxes .grid-item-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+main .boxes .grid-image-top {
+  height: 45%;
+  width: 120%;
+  background-size: cover;
+  position: relative;
+  background-position: 50% 50%;
+  left: -10.5%;
+  top: -4.5%;
+}
+main .boxes .grid-image-top .centered {
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 54.5%;
+  left: 50%;
+  width: 60%;
+  height: 60%;
+  background-position: center;
+}
+main .boxes .grid-image-top.rex-ray {
+  background: linear-gradient(#007db8, #00447c);
+}
+main .boxes .rex-ray-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/Rex-Ray-icon-209x300.png);
+}
+main .boxes .grid-image-top.sputnik {
+  background: linear-gradient(#1aa9fb, #1785c4);
+}
+main .boxes .sputnik-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/sputnik-1-300x257.png);
+}
+main .boxes .grid-image-top.edgex {
+  background: linear-gradient(#952f4c, #3e1a51);
+}
+main .boxes .edgex-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/edge-x-300x287.png);
+}
+main .boxes .grid-image-top.openswitch {
+  background: linear-gradient(#2db89a, #00793d);
+}
+main .boxes .openswitch-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/open-switch-300x207.png);
+}
+main .boxes .grid-image-top.scaleio {
+  background: linear-gradient(#2e96dd, #326de6);
+}
+main .boxes .scaleio-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/K8s_ScaleIO_Color-white-thumb-221x300.png);
+}
+main .boxes .grid-image-top.csi {
+  background: linear-gradient(#464646, #000000);
+}
+main .boxes .csi-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/csi-1-300x99.png);
+}
+main .boxes .grid-image-top.kubernetes {
+  background: linear-gradient(#09c1d1, #326de6);
+}
+main .boxes .kubernetes-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/kubernetes-300x293.png);
+}
+main .boxes .grid-image-top.grpc {
+  background: linear-gradient(#0cc1c8, #2e838c);
+}
+main .boxes .grpc-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/grpc-300x105.png);
+}
+main .boxes .grid-image-top.envoy {
+  background: linear-gradient(#290b54, #130229);
+}
+main .boxes .envoy-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/envoy_logo-5028052-300x91.png);
+}
+main .boxes .grid-image-top.istio {
+  background: linear-gradient(#4a73c0, #466bb0);
+}
+main .boxes .istio-image {
+  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/istio-203x300.png);
+}
+main .boxes .grid-item-content {
+  padding: 0 20px 20px 20px;
+}
+main .boxes .item-title {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  display: block;
+}
+main .boxes .item-category {
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+main .boxes .item-excerpt {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 14px;
+}
+main .boxes .more-info {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 25px;
+  padding-left: 0;
+  transition-duration: 0.5s;
+  font-size: 12px;
+  display: flex;
+}
+main .boxes .more-info i {
+  padding-left: 5px;
+  transition-duration: 0.5s;
+}
+main .boxes .grid-item:hover .more-info i {
+  padding-left: 20px;
+  transition-duration: 0.5s;
+}
+main .boxes .more-info i::before {
+  font-size: 16px;
+}
+main .boxes .grid-item:hover .grid-item-wrapper {
+  padding: 2% 2%;
+  margin: -2% -2%;
+}
+@media (max-width: 1333px) {
+  main .boxes .grid-item {
+    flex-basis: 33.33%;
+  }
+}
+@media (max-width: 1073px) {
+  main .boxes .grid-item {
+    flex-basis: 33.33%;
+  }
+}
+@media (max-width: 815px) {
+  main .boxes .grid-item {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 555px) {
+  main .boxes .grid-item {
+    flex-basis: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
