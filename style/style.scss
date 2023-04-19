@@ -9,45 +9,92 @@ body {
 }
 
 .nav {
-  background-color: rgb(34, 22, 43);
-  color: rgb(229, 79, 109);
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  align-items: center;
+    background-color: rgb(34, 22, 43);
+    color: rgb(229, 79, 109);
+    width: 100%;
 
-  .logo {
-    font-size: 3rem;
-    font-weight: 900;
-    transition: 0.3s;
-
-    &:hover {
-      filter: hue-rotate(5deg) drop-shadow(2px 4px 6px black);
+    .pad {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        .logo {
+            font-size: 3rem;
+            font-weight: 900;
+            transition: 0.3s;
+        
+            &:hover {
+              filter: hue-rotate(5deg) drop-shadow(2px 4px 6px black);
+            }
+          }
+          .menu {
+            display: flex;
+            text-align: center;
+            .btn {
+              background-color: rgb(69, 31, 85);
+              padding: 5px 15px 5px 15px;
+              text-align: center;
+              margin: 0 1px 0 1px;
+              transition: 0.4s;
+        
+              &:hover {
+                opacity: 0.7;
+              }
+            }
+          }
     }
   }
-  .menu {
-    display: flex;
 
-    .btn {
-      background-color: rgb(69, 31, 85);
-      padding: 5px 15px 5px 15px;
-      text-align: center;
-      margin: 0 1px 0 1px;
-      transition: 0.4s;
 
-      &:hover {
-        opacity: 0.7;
-      }
+
+.footer {
+    background-color: rgb(34, 22, 43);
+    color: rgb(229, 79, 109);
+    width: 100%;
+    // bottom: 0;
+    .pad {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        .logo {
+            font-size: 3rem;
+            font-weight: 900;
+            transition: 0.3s;
+        
+            &:hover {
+              filter: hue-rotate(5deg) drop-shadow(2px 4px 6px black);
+            }
+          }
+          .menu {
+            display: flex;
+            text-align: center;
+            .btn {
+              background-color: rgb(69, 31, 85);
+              padding: 5px 15px 5px 15px;
+              text-align: center;
+              margin: 0 1px 0 1px;
+              transition: 0.4s;
+        
+              &:hover {
+                opacity: 0.7;
+              }
+            }
+          }
     }
   }
-}
+
 
 main {
   background-color: rgb(69, 31, 85);
   width: 88%;
   margin: 0 auto;
-  min-height: 88vh;
+  min-height: calc(100vh - 15.3rem);
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   h1 {
     color: rgb(229, 79, 109);
@@ -140,13 +187,13 @@ main {
         from(#007db8),
         to(#00447c)
       );
-      background: -webkit-linear-gradient(#007db8, #00447c);
-      background: -o-linear-gradient(#007db8, #00447c);
-      background: linear-gradient(#007db8, #00447c);
+      background: -webkit-linear-gradient(#952f4c, #3e1a51);
+      background: -o-linear-gradient(#952f4c, #3e1a51);
+      background: linear-gradient(#952f4c, #3e1a51);
     }
 
     .rex-ray-image {
-      background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/Rex-Ray-icon-209x300.png);
+      background-image: url(../img/grid1.png);
     }
 
     .grid-image-top.sputnik {

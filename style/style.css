@@ -12,30 +12,68 @@ body {
 .nav {
   background-color: rgb(34, 22, 43);
   color: rgb(229, 79, 109);
+  width: 100%;
+}
+.nav .pad {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
   align-items: center;
+  padding: 25px;
 }
-.nav .logo {
+.nav .pad .logo {
   font-size: 3rem;
   font-weight: 900;
   transition: 0.3s;
 }
-.nav .logo:hover {
+.nav .pad .logo:hover {
   filter: hue-rotate(5deg) drop-shadow(2px 4px 6px black);
 }
-.nav .menu {
+.nav .pad .menu {
   display: flex;
+  text-align: center;
 }
-.nav .menu .btn {
+.nav .pad .menu .btn {
   background-color: rgb(69, 31, 85);
   padding: 5px 15px 5px 15px;
   text-align: center;
   margin: 0 1px 0 1px;
   transition: 0.4s;
 }
-.nav .menu .btn:hover {
+.nav .pad .menu .btn:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  background-color: rgb(34, 22, 43);
+  color: rgb(229, 79, 109);
+  width: 100%;
+}
+.footer .pad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+.footer .pad .logo {
+  font-size: 3rem;
+  font-weight: 900;
+  transition: 0.3s;
+}
+.footer .pad .logo:hover {
+  filter: hue-rotate(5deg) drop-shadow(2px 4px 6px black);
+}
+.footer .pad .menu {
+  display: flex;
+  text-align: center;
+}
+.footer .pad .menu .btn {
+  background-color: rgb(69, 31, 85);
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  margin: 0 1px 0 1px;
+  transition: 0.4s;
+}
+.footer .pad .menu .btn:hover {
   opacity: 0.7;
 }
 
@@ -43,8 +81,12 @@ main {
   background-color: rgb(69, 31, 85);
   width: 88%;
   margin: 0 auto;
-  min-height: 88vh;
+  min-height: calc(100vh - 15.3rem);
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 main h1 {
   color: rgb(229, 79, 109);
@@ -113,10 +155,10 @@ main .boxes .grid-image-top .centered {
   background-position: center;
 }
 main .boxes .grid-image-top.rex-ray {
-  background: linear-gradient(#007db8, #00447c);
+  background: linear-gradient(#952f4c, #3e1a51);
 }
 main .boxes .rex-ray-image {
-  background-image: url(https://thecodeteam.com/wp-content/uploads/2017/08/Rex-Ray-icon-209x300.png);
+  background-image: url(../img/grid1.png);
 }
 main .boxes .grid-image-top.sputnik {
   background: linear-gradient(#1aa9fb, #1785c4);
